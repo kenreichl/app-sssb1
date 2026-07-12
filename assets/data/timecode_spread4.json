@@ -1,0 +1,561 @@
+{
+    "song": "grow grow grow",
+    "duration": 138.5,
+    "lines": [
+      {
+        "id": "l1",
+        "page": 7,
+        "start": 15.54,
+        "end": 17.43,
+        "text": "Grow grow grow your own",
+        "words": [
+          { "start": 15.54, "end": 16.00, "text": "Grow" },
+          { "start": 16.00, "end": 16.45, "text": "grow" },
+          { "start": 16.45, "end": 16.81, "text": "grow" },
+          { "start": 16.81, "end": 17.01, "text": "your" },
+          { "start": 17.01, "end": 17.43, "text": "own" }
+        ]
+      },
+      {
+        "id": "l2",
+        "page": 7,
+        "start": 17.43,
+        "end": 19.22,
+        "text": "Fig and apple trees",
+        "words": [
+          { "start": 17.43, "end": 17.79, "text": "Fig" },
+          { "start": 17.79, "end": 17.94, "text": "and" },
+          { "start": 17.94, "end": 18.32, "text": "apple" },
+          { "start": 18.32, "end": 19.22, "text": "trees" }
+        ]
+      },
+      {
+        "id": "l3",
+        "page": 7,
+        "start": 19.22,
+        "end": 21.17,
+        "text": "Celery, squash, and lima beans",
+        "words": [
+          { "start": 19.22, "end": 19.72, "text": "Celery" },
+          { "start": 19.72, "end": 20.15, "text": "squash" },
+          { "start": 20.15, "end": 20.32, "text": "and" },
+          { "start": 20.32, "end": 20.77, "text": "lima" },
+          { "start": 20.77, "end": 21.17, "text": "beans" }
+        ]
+      },
+      {
+        "id": "l4",
+        "page": 7,
+        "start": 21.17,
+        "end": 23.12,
+        "text": "Life is full of greens",
+        "words": [
+          { "start": 21.17, "end": 21.54, "text": "Life" },
+          { "start": 21.54, "end": 21.72, "text": "is" },
+          { "start": 21.72, "end": 22.04, "text": "full" },
+          { "start": 22.04, "end": 22.20, "text": "of" },
+          { "start": 22.20, "end": 23.12, "text": "greens" }
+        ]
+      },
+      {
+        "id": "l5",
+        "page": 7,
+        "start": 23.12,
+        "end": 24.97,
+        "text": "Grow grow grow your own",
+        "words": [
+          { "start": 23.12, "end": 23.61, "text": "Grow" },
+          { "start": 23.61, "end": 24.09, "text": "grow" },
+          { "start": 24.09, "end": 24.44, "text": "grow" },
+          { "start": 24.44, "end": 24.62, "text": "your" },
+          { "start": 24.62, "end": 24.97, "text": "own" }
+        ]
+      },
+      {
+        "id": "l6",
+        "page": 7,
+        "start": 24.97,
+        "end": 26.94,
+        "text": "Food you like to eat",
+        "words": [
+          { "start": 24.97, "end": 25.37, "text": "Food" },
+          { "start": 25.37, "end": 25.48, "text": "you" },
+          { "start": 25.48, "end": 25.77, "text": "like" },
+          { "start": 25.77, "end": 25.97, "text": "to" },
+          { "start": 25.97, "end": 26.90, "text": "eat" }
+        ]
+      },
+      {
+        "id": "l7",
+        "page": 7,
+        "start": 26.90,
+        "end": 28.81,
+        "text": "All you need is soil, sun",
+        "words": [
+          { "start": 26.90, "end": 27.20, "text": "All" },
+          { "start": 27.20, "end": 27.39, "text": "you" },
+          { "start": 27.39, "end": 27.66, "text": "need" },
+          { "start": 27.66, "end": 27.75, "text": "is" },
+          { "start": 27.75, "end": 28.25, "text": "soil" },
+          { "start": 28.25, "end": 28.81, "text": "sun" }
+        ]
+      },
+      {
+        "id": "l8",
+        "page": 7,
+        "start": 28.81,
+        "end": 30.42,
+        "text": "water and the seeds",
+        "words": [
+          { "start": 28.81, "end": 29.28, "text": "water" },
+          { "start": 29.28, "end": 29.51, "text": "and" },
+          { "start": 29.51, "end": 29.60, "text": "the" },
+          { "start": 29.60, "end": 30.42, "text": "seeds" }
+        ]
+      },
+      {
+        "id": "l1",
+        "page": 7,
+        "start": 44.09,
+        "end": 45.75,
+        "text": "Grow grow grow your own",
+        "words": [
+          { "start": 44.09, "end": 44.52, "text": "Grow" },
+          { "start": 44.52, "end": 44.95, "text": "grow" },
+          { "start": 44.95, "end": 45.18, "text": "grow" },
+          { "start": 45.18, "end": 45.40, "text": "your" },
+          { "start": 45.40, "end": 45.75, "text": "own" }
+        ]
+      },
+      {
+        "id": "l2",
+        "page": 7,
+        "start": 45.75,
+        "end": 47.44,
+        "text": "Fig and apple trees",
+        "words": [
+          { "start": 45.75, "end": 46.14, "text": "Fig" },
+          { "start": 46.14, "end": 46.30, "text": "and" },
+          { "start": 46.30, "end": 46.62, "text": "apple" },
+          { "start": 46.62, "end": 47.44, "text": "trees" }
+        ]
+      },
+      {
+        "id": "l3",
+        "page": 7,
+        "start": 47.44,
+        "end": 49.16,
+        "text": "Celery, squash, and lima beans",
+        "words": [
+          { "start": 47.44, "end": 47.86, "text": "Celery" },
+          { "start": 47.86, "end": 48.27, "text": "squash" },
+          { "start": 48.27, "end": 48.45, "text": "and" },
+          { "start": 48.45, "end": 48.79, "text": "lima" },
+          { "start": 48.79, "end": 49.16, "text": "beans" }
+        ]
+      },
+      {
+        "id": "l4",
+        "page": 7,
+        "start": 49.16,
+        "end": 50.87,
+        "text": "Life is full of greens",
+        "words": [
+          { "start": 49.16, "end": 49.46, "text": "Life" },
+          { "start": 49.46, "end": 49.66, "text": "is" },
+          { "start": 49.66, "end": 49.90, "text": "full" },
+          { "start": 49.90, "end": 50.06, "text": "of" },
+          { "start": 50.06, "end": 50.87, "text": "greens" }
+        ]
+      }
+      {
+        "id": "l5",
+        "page": 7,
+        "start": 50.87,
+        "end": 52.46,
+        "text": "Grow grow grow your own",
+        "words": [
+          { "start": 50.87, "end": 51.29, "text": "Grow" },
+          { "start": 51.29, "end": 51.69, "text": "grow" },
+          { "start": 51.69, "end": 51.98, "text": "grow" },
+          { "start": 51.98, "end": 52.19, "text": "your" },
+          { "start": 52.19, "end": 52.46, "text": "own" }
+        ]
+      },
+      {
+        "id": "l6",
+        "page": 7,
+        "start": 52.46,
+        "end": 54.13,
+        "text": "Food you like to eat",
+        "words": [
+          { "start": 52.46, "end": 52.81, "text": "Food" },
+          { "start": 52.81, "end": 52.92, "text": "you" },
+          { "start": 52.92, "end": 53.17, "text": "like" },
+          { "start": 53.17, "end": 53.39, "text": "to" },
+          { "start": 53.39, "end": 54.13, "text": "eat" }
+        ]
+      },
+      {
+        "id": "l7",
+        "page": 7,
+        "start": 54.13,
+        "end": 55.81,
+        "text": "All you need is soil, sun",
+        "words": [
+          { "start": 54.13, "end": 54.44, "text": "All" },
+          { "start": 54.44, "end": 54.59, "text": "you" },
+          { "start": 54.59, "end": 54.83, "text": "need" },
+          { "start": 54.83, "end": 54.91, "text": "is" },
+          { "start": 54.91, "end": 55.35, "text": "soil" },
+          { "start": 55.35, "end": 55.81, "text": "sun" }
+        ]
+      },
+      {
+        "id": "l8",
+        "page": 7,
+        "start": 55.81,
+        "end": 57.41,
+        "text": "water and the seeds",
+        "words": [
+          { "start": 55.81, "end": 56.28, "text": "water" },
+          { "start": 56.28, "end": 56.45, "text": "and" },
+          { "start": 56.45, "end": 56.56, "text": "the" },
+          { "start": 56.56, "end": 57.41, "text": "seeds" }
+        ]
+      },
+      {
+        "id": "l1",
+        "page": 7,
+        "start": 69.72,
+        "end": 71.35,
+        "text": "Grow grow grow your own",
+        "words": [
+          { "start": 69.72, "end": 70.16, "text": "Grow" },
+          { "start": 70.16, "end": 70.58, "text": "grow" },
+          { "start": 70.58, "end": 70.83, "text": "grow" },
+          { "start": 70.83, "end": 70.95, "text": "your" },
+          { "start": 70.95, "end": 71.35, "text": "own" }
+        ]
+      },
+      {
+        "id": "l2",
+        "page": 7,
+        "start": 71.35,
+        "end": 72.72,
+        "text": "Fig and apple trees",
+        "words": [
+          { "start": 71.35, "end": 71.67, "text": "Fig" },
+          { "start": 71.67, "end": 71.79, "text": "and" },
+          { "start": 71.79, "end": 72.10, "text": "apple" },
+          { "start": 72.10, "end": 72.72, "text": "trees" }
+        ]
+      },
+      {
+        "id": "l3",
+        "page": 7,
+        "start": 72.72,
+        "end": 74.38,
+        "text": "Celery, squash, and lima beans",
+        "words": [
+          { "start": 72.72, "end": 73.19, "text": "Celery" },
+          { "start": 73.19, "end": 73.55, "text": "squash" },
+          { "start": 73.55, "end": 73.66, "text": "and" },
+          { "start": 73.66, "end": 74.04, "text": "lima" },
+          { "start": 74.04, "end": 74.38, "text": "beans" }
+        ]
+      },
+      {
+        "id": "l4",
+        "page": 7,
+        "start": 74.38,
+        "end": 75.94,
+        "text": "Life is full of greens",
+        "words": [
+          { "start": 74.38, "end": 74.65, "text": "Life" },
+          { "start": 74.65, "end": 74.82, "text": "is" },
+          { "start": 74.82, "end": 75.05, "text": "full" },
+          { "start": 75.05, "end": 75.19, "text": "of" },
+          { "start": 75.19, "end": 75.94, "text": "greens" }
+        ]
+      },
+      {
+        "id": "l5",
+        "page": 7,
+        "start": 75.94,
+        "end": 77.44,
+        "text": "Grow grow grow your own",
+        "words": [
+          { "start": 75.94, "end": 76.34, "text": "Grow" },
+          { "start": 76.34, "end": 76.75, "text": "grow" },
+          { "start": 76.75, "end": 77.00, "text": "grow" },
+          { "start": 77.00, "end": 77.20, "text": "your" },
+          { "start": 77.20, "end": 77.44, "text": "own" }
+        ]
+      },
+      {
+        "id": "l6",
+        "page": 7,
+        "start": 77.44,
+        "end": 79.01,
+        "text": "Food you like to eat",
+        "words": [
+          { "start": 77.44, "end": 77.78, "text": "Food" },
+          { "start": 77.78, "end": 77.87, "text": "you" },
+          { "start": 77.87, "end": 78.08, "text": "like" },
+          { "start": 78.08, "end": 78.25, "text": "to" },
+          { "start": 78.25, "end": 79.01, "text": "eat" }
+        ]
+      },
+      {
+        "id": "l7",
+        "page": 7,
+        "start": 79.01,
+        "end": 80.50,
+        "text": "All you need is soil, sun",
+        "words": [
+          { "start": 79.01, "end": 79.27, "text": "All" },
+          { "start": 79.27, "end": 79.40, "text": "you" },
+          { "start": 79.40, "end": 79.60, "text": "need" },
+          { "start": 79.60, "end": 79.65, "text": "is" },
+          { "start": 79.65, "end": 80.08, "text": "soil" },
+          { "start": 80.08, "end": 80.50, "text": "sun" }
+        ]
+      },
+      {
+        "id": "l8",
+        "page": 7,
+        "start": 80.50,
+        "end": 82.18,
+        "text": "water and the seeds",
+        "words": [
+          { "start": 80.50, "end": 80.92, "text": "water" },
+          { "start": 80.92, "end": 81.07, "text": "and" },
+          { "start": 81.07, "end": 81.21, "text": "the" },
+          { "start": 81.21, "end": 82.18, "text": "seeds" }
+        ]
+      },
+      {
+        "id": "l1",
+        "page": 7,
+        "start": 104.25,
+        "end": 83.81,
+        "text": "Grow grow grow your own",
+        "words": [
+          { "start": 104.25, "end": 104.57, "text": "Grow" },
+          { "start": 104.57, "end": 104.91, "text": "grow" },
+          { "start": 104.91, "end": 105.13, "text": "grow" },
+          { "start": 105.13, "end": 105.26, "text": "your" },
+          { "start": 105.26, "end": 105.54, "text": "own" }
+        ]
+      },
+      {
+        "id": "l2",
+        "page": 7,
+        "start": 105.54,
+        "end": 106.83,
+        "text": "Fig and apple trees",
+        "words": [
+          { "start": 105.54, "end": 105.91, "text": "Fig" },
+          { "start": 105.91, "end": 105.98, "text": "and" },
+          { "start": 105.98, "end": 106.25, "text": "apple" },
+          { "start": 106.25, "end": 106.83, "text": "trees" }
+        ]
+      },
+      {
+        "id": "l3",
+        "page": 7,
+        "start": 106.91,
+        "end": 108.31,
+        "text": "Celery, squash, and lima beans",
+        "words": [
+          { "start": 106.83, "end": 107.26, "text": "Celery" },
+          { "start": 107.26, "end": 107.63, "text": "squash" },
+          { "start": 107.63, "end": 107.72, "text": "and" },
+          { "start": 107.72, "end": 108.00, "text": "lima" },
+          { "start": 108.00, "end": 108.31, "text": "beans" }
+        ]
+      },
+      {
+        "id": "l4",
+        "page": 7,
+        "start": 108.31,
+        "end": 109.53,
+        "text": "Life is full of greens",
+        "words": [
+          { "start": 108.31, "end": 108.56, "text": "Life" },
+          { "start": 108.56, "end": 108.69, "text": "is" },
+          { "start": 108.69, "end": 108.93, "text": "full" },
+          { "start": 108.93, "end": 109.02, "text": "of" },
+          { "start": 109.02, "end": 109.53, "text": "greens" }
+        ]
+      },
+      {
+        "id": "l5",
+        "page": 7,
+        "start": 109.61,
+        "end": 110.97,
+        "text": "Grow grow grow your own",
+        "words": [
+          { "start": 109.61, "end": 110.00, "text": "Grow" },
+          { "start": 110.00, "end": 110.33, "text": "grow" },
+          { "start": 110.33, "end": 110.59, "text": "grow" },
+          { "start": 110.59, "end": 110.68, "text": "your" },
+          { "start": 110.68, "end": 110.97, "text": "own" }
+        ]
+      },
+      {
+        "id": "l6",
+        "page": 7,
+        "start": 110.97,
+        "end": 112.33,
+        "text": "Food you like to eat",
+        "words": [
+          { "start": 110.97, "end": 111.21, "text": "Food" },
+          { "start": 111.21, "end": 111.39, "text": "you" },
+          { "start": 111.39, "end": 111.57, "text": "like" },
+          { "start": 111.57, "end": 112.72, "text": "to" },
+          { "start": 112.72, "end": 112.33, "text": "eat" }
+        ]
+      },
+      {
+        "id": "l7",
+        "page": 7,
+        "start": 112.33,
+        "end": 113.67,
+        "text": "All you need is soil, sun",
+        "words": [
+          { "start": 112.33, "end": 112.66, "text": "All" },
+          { "start": 112.66, "end": 112.72, "text": "you" },
+          { "start": 112.72, "end": 112.91, "text": "need" },
+          { "start": 112.91, "end": 113.00, "text": "is" },
+          { "start": 113.00, "end": 113.32, "text": "soil" },
+          { "start": 113.32, "end": 113.67, "text": "sun" }
+        ]
+      },
+      {
+        "id": "l8",
+        "page": 7,
+        "start": 113.67,
+        "end": 115.25,
+        "text": "water and the seeds",
+        "words": [
+          { "start": 113.67, "end": 114.06, "text": "water" },
+          { "start": 114.06, "end": 114.21, "text": "and" },
+          { "start": 114.21, "end": 114.26, "text": "the" },
+          { "start": 114.26, "end": 115.25, "text": "seeds" }
+        ]
+      },
+      {
+        "id": "l1",
+        "page": 7,
+        "start": 125.31,
+        "end": 126.56,
+        "text": "Grow grow grow your own",
+        "words": [
+          { "start": 125.31, "end": 125.60, "text": "Grow" },
+          { "start": 125.60, "end": 125.93, "text": "grow" },
+          { "start": 125.93, "end": 126.16, "text": "grow" },
+          { "start": 126.16, "end": 126.27, "text": "your" },
+          { "start": 126.27, "end": 126.56, "text": "own" }
+        ]
+      },
+      {
+        "id": "l2",
+        "page": 7,
+        "start": 126.56,
+        "end": 127.75,
+        "text": "Fig and apple trees",
+        "words": [
+          { "start": 126.56, "end": 126.84, "text": "Fig" },
+          { "start": 126.84, "end": 126.92, "text": "and" },
+          { "start": 126.92, "end": 127.17, "text": "apple" },
+          { "start": 127.17, "end": 127.75, "text": "trees" }
+        ]
+      },
+      {
+        "id": "l3",
+        "page": 7,
+        "start": 127.75,
+        "end": 129.05,
+        "text": "Celery, squash, and lima beans",
+        "words": [
+          { "start": 127.75, "end": 128.07, "text": "Celery" },
+          { "start": 128.07, "end": 128.40, "text": "squash" },
+          { "start": 128.40, "end": 128.45, "text": "and" },
+          { "start": 128.45, "end": 128.76, "text": "lima" },
+          { "start": 128.76, "end": 129.05, "text": "beans" }
+        ]
+      },
+      {
+        "id": "l4",
+        "page": 7,
+        "start": 129.05,
+        "end": 130.34,
+        "text": "Life is full of greens",
+        "words": [
+          { "start": 129.05, "end": 129.24, "text": "Life" },
+          { "start": 129.24, "end": 129.42, "text": "is" },
+          { "start": 129.42, "end": 129.62, "text": "full" },
+          { "start": 129.62, "end": 129.69, "text": "of" },
+          { "start": 129.69, "end": 130.34, "text": "greens" }
+        ]
+      },
+      {
+        "id": "l5",
+        "page": 7,
+        "start": 130.34,
+        "end": 131.55,
+        "text": "Grow grow grow your own",
+        "words": [
+          { "start": 130.34, "end": 130.66, "text": "Grow" },
+          { "start": 130.66, "end": 130.97, "text": "grow" },
+          { "start": 130.97, "end": 131.18, "text": "grow" },
+          { "start": 131.18, "end": 131.30, "text": "your" },
+          { "start": 131.30, "end": 131.55, "text": "own" }
+        ]
+      },
+      {
+        "id": "l6",
+        "page": 7,
+        "start": 131.55,
+        "end": 132.84,
+        "text": "Food you like to eat",
+        "words": [
+          { "start": 131.55, "end": 131.78, "text": "Food" },
+          { "start": 131.78, "end": 131.88, "text": "you" },
+          { "start": 131.88, "end": 132.09, "text": "like" },
+          { "start": 132.09, "end": 132.22, "text": "to" },
+          { "start": 132.22, "end": 132.84, "text": "eat" }
+        ]
+      },
+      {
+        "id": "l7",
+        "page": 7,
+        "start": 132.84,
+        "end": 134.16,
+        "text": "All you need is soil, sun",
+        "words": [
+          { "start": 132.84, "end": 133.09, "text": "All" },
+          { "start": 133.09, "end": 133.18, "text": "you" },
+          { "start": 133.18, "end": 133.35, "text": "need" },
+          { "start": 133.35, "end": 133.45, "text": "is" },
+          { "start": 133.45, "end": 133.77, "text": "soil" },
+          { "start": 133.77, "end": 134.16, "text": "sun" }
+        ]
+      },
+      {
+        "id": "l8",
+        "page": 7,
+        "start": 134.16,
+        "end": 137.00,
+        "text": "water and the seeds",
+        "words": [
+          { "start": 134.16, "end": 134.52, "text": "water" },
+          { "start": 134.52, "end": 134.64, "text": "and" },
+          { "start": 134.64, "end": 134.76, "text": "the" },
+          { "start": 134.76, "end": 137.00, "text": "seeds" }
+        ]
+      }
+    ]
+}

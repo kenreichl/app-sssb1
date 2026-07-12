@@ -1,0 +1,544 @@
+{
+    "song": "henrietta",
+    "duration": 163.9,
+    "lines": [
+      {
+        "id": "l1",
+        "page": 1,
+        "start": 12.23,
+        "end": 17.27,
+        "text": "Henrietta had a farm ee i ee i o",
+        "words": [
+          { "start": 12.23, "end": 13.56, "text": "Henrietta" },
+          { "start": 13.56, "end": 13.95, "text": "had" },
+          { "start": 13.95, "end": 14.24, "text": "a" },
+          { "start": 14.24, "end": 14.91, "text": "farm" },
+          { "start": 14.91, "end": 15.33, "text": "ee" },
+          { "start": 15.33, "end": 15.72, "text": "i" },
+          { "start": 15.72, "end": 16.00, "text": "ee" },
+          { "start": 16.00, "end": 16.37, "text": "i" },
+          { "start": 16.37, "end": 17.27, "text": "o" }
+        ]
+      },
+      {
+        "id": "l2",
+        "page": 1,
+        "start": 17.27,
+        "end": 22.50,
+        "text": "and on that farm she grew some beets ee i ee i o",
+        "words": [
+          { "start": 17.27, "end": 17.62, "text": "and" },
+          { "start": 17.62, "end": 17.94, "text": "on" },
+          { "start": 17.94, "end": 18.26, "text": "that" },
+          { "start": 18.26, "end": 18.55, "text": "farm" },
+          { "start": 18.55, "end": 18.91, "text": "she" },
+          { "start": 18.91, "end": 19.17, "text": "grew" },
+          { "start": 19.17, "end": 19.54, "text": "some" },
+          { "start": 19.54, "end": 20.24, "text": "beets" },
+          { "start": 20.24, "end": 20.63, "text": "ee" },
+          { "start": 20.63, "end": 20.94, "text": "i" },
+          { "start": 20.94, "end": 21.29, "text": "ee" },
+          { "start": 21.29, "end": 21.63, "text": "i" },
+          { "start": 21.63, "end": 22.50, "text": "o" }
+        ]
+      },
+      {
+        "id": "l3",
+        "page": 1,
+        "start": 22.50,
+        "end": 25.55,
+        "text": "With red dye here, gold dye there,",
+        "words": [
+          { "start": 22.50, "end": 22.89, "text": "With" },
+          { "start": 22.89, "end": 23.23, "text": "red" },
+          { "start": 23.23, "end": 23.55, "text": "dye" },
+          { "start": 23.55, "end": 24.20, "text": "here" },
+          { "start": 24.20, "end": 24.53, "text": "gold" },
+          { "start": 24.53, "end": 24.84, "text": "dye" },
+          { "start": 24.84, "end": 25.55, "text": "there" }
+        ]
+      },
+      {
+        "id": "l4",
+        "page": 1,
+        "start": 25.55,
+        "end": 28.23,
+        "text": "purple dye, yellow dye, colors that electrify",
+        "words": [
+          { "start": 25.55, "end": 25.89, "text": "purple" },
+          { "start": 25.89, "end": 26.12, "text": "dye" },
+          { "start": 26.12, "end": 26.56, "text": "yellow" },
+          { "start": 26.56, "end": 26.86, "text": "dye" },
+          { "start": 26.86, "end": 27.26, "text": "colors" },
+          { "start": 27.26, "end": 27.40, "text": "that" },
+          { "start": 27.40, "end": 28.23, "text": "electrify" }
+        ]
+      },
+      {
+        "id": "l5",
+        "page": 1,
+        "start": 28.23,
+        "end": 33.12,
+        "text": "Henrietta had a farm ee i ee i o",
+        "words": [
+          { "start": 28.23, "end": 29.60, "text": "Henrietta" },
+          { "start": 29.60, "end": 30.00, "text": "had" },
+          { "start": 30.00, "end": 30.26, "text": "a" },
+          { "start": 30.26, "end": 30.91, "text": "farm" },
+          { "start": 30.91, "end": 31.26, "text": "ee" },
+          { "start": 31.26, "end": 31.65, "text": "i" },
+          { "start": 31.65, "end": 31.95, "text": "ee" },
+          { "start": 31.95, "end": 32.29, "text": "i" },
+          { "start": 32.29, "end": 33.12, "text": "o" }
+        ]
+      },
+      {
+        "id": "l6",
+        "page": 1,
+        "start": 38.95,
+        "end": 43.95,
+        "text": "Henrietta had a farm ee i ee i o",
+        "words": [
+          { "start": 38.95, "end": 40.22, "text": "Henrietta" },
+          { "start": 40.22, "end": 40.70, "text": "had" },
+          { "start": 40.70, "end": 40.90, "text": "a" },
+          { "start": 40.90, "end": 41.58, "text": "farm" },
+          { "start": 41.58, "end": 41.98, "text": "ee" },
+          { "start": 41.98, "end": 42.33, "text": "i" },
+          { "start": 42.33, "end": 42.63, "text": "ee" },
+          { "start": 42.63, "end": 42.97, "text": "i" },
+          { "start": 42.97, "end": 43.95, "text": "o" }
+        ]
+      },
+      {
+        "id": "l7",
+        "page": 1,
+        "start": 43.95,
+        "end": 49.23,
+        "text": "and on that farm she grew mixed greens ee i ee i o",
+        "words": [
+          { "start": 43.95, "end": 44.31, "text": "and" },
+          { "start": 44.31, "end": 44.61, "text": "on" },
+          { "start": 44.61, "end": 44.93, "text": "that" },
+          { "start": 44.93, "end": 45.20, "text": "farm" },
+          { "start": 45.20, "end": 45.58, "text": "she" },
+          { "start": 45.58, "end": 45.85, "text": "grew" },
+          { "start": 45.85, "end": 46.23, "text": "mixed" },
+          { "start": 46.23, "end": 46.91, "text": "greens" },
+          { "start": 46.91, "end": 47.32, "text": "ee" },
+          { "start": 47.32, "end": 47.64, "text": "i" },
+          { "start": 47.64, "end": 48.00, "text": "ee" },
+          { "start": 48.00, "end": 48.29, "text": "i" },
+          { "start": 48.29, "end": 49.23, "text": "o" }
+        ]
+      },
+      {
+        "id": "l8",
+        "page": 1,
+        "start": 49.23,
+        "end": 52.19,
+        "text": "With a crunch crunch here, and a crunch crunch there,",
+        "words": [
+          { "start": 49.23, "end": 49.43, "text": "With" },
+          { "start": 49.43, "end": 49.59, "text": "a" },
+          { "start": 49.59, "end": 49.89, "text": "crunch" },
+          { "start": 49.89, "end": 50.22, "text": "crunch" },
+          { "start": 50.22, "end": 50.57, "text": "here" },
+          { "start": 50.57, "end": 50.74, "text": "and" },
+          { "start": 50.74, "end": 50.84, "text": "a" },
+          { "start": 50.84, "end": 51.16, "text": "crunch" },
+          { "start": 51.16, "end": 51.56, "text": "crunch" },
+          { "start": 51.56, "end": 52.19, "text": "there" }
+        ]
+      },
+      {
+        "id": "l9",
+        "page": 1,
+        "start": 52.19,
+        "end": 54.90,
+        "text": "here crunch, there crunch, wrap it up in a bunch",
+        "words": [
+          { "start": 52.19, "end": 52.50, "text": "here" },
+          { "start": 52.50, "end": 52.88, "text": "crunch" },
+          { "start": 52.88, "end": 53.19, "text": "there" },
+          { "start": 53.19, "end": 53.54, "text": "crunch" },
+          { "start": 53.54, "end": 53.86 , "text": "wrap" },
+          { "start": 53.86, "end": 53.93, "text": "it" },
+          { "start": 53.93, "end": 54.29, "text": "up" },
+          { "start": 54.29, "end": 54.46, "text": "in" },
+          { "start": 54.46, "end": 54.55, "text": "a" },
+          { "start": 54.55, "end": 54.90, "text": "bunch" }
+        ]
+      },
+      {
+        "id": "l10",
+        "page": 1,
+        "start": 54.90,
+        "end": 58.23,
+        "text": "Henrietta had a farm ee i ee i o",
+        "words": [
+          { "start": 54.90, "end": 56.22, "text": "Henrietta" },
+          { "start": 56.22, "end": 56.61, "text": "had" },
+          { "start": 56.61, "end": 56.91, "text": "a" },
+          { "start": 56.91, "end": 57.57, "text": "farm" },
+          { "start": 57.57, "end": 57.93, "text": "ee" },
+          { "start": 57.93, "end": 58.30, "text": "i" },
+          { "start": 58.30, "end": 58.63, "text": "ee" },
+          { "start": 58.63, "end": 58.95, "text": "i" },
+          { "start": 58.95, "end": 60.08, "text": "o" }
+        ]
+      },
+      {
+        "id": "l11",
+        "page": 1,
+        "start": 70.58,
+        "end": 63.19,
+        "text": "Henrietta had a farm ee i ee i o",
+        "words": [
+          { "start": 65.52, "end": 66.90, "text": "Henrietta" },
+          { "start": 66.90, "end": 67.32, "text": "had" },
+          { "start": 67.32, "end": 67.59, "text": "a" },
+          { "start": 67.59, "end": 68.26, "text": "farm" },
+          { "start": 68.26, "end": 68.61, "text": "ee" },
+          { "start": 68.61, "end": 68.96, "text": "i" },
+          { "start": 68.96, "end": 69.28, "text": "ee" },
+          { "start": 69.28, "end": 69.62, "text": "i" },
+          { "start": 69.62, "end": 70.58, "text": "o" }
+        ]
+      },
+      {
+        "id": "l12",
+        "page": 1,
+        "start": 70.58,
+        "end": 75.84,
+        "text": "and on that farm she had some seeds ee i ee i o",
+        "words": [
+          { "start": 70.58, "end": 70.92, "text": "and" },
+          { "start": 70.92, "end": 71.26, "text": "on" },
+          { "start": 71.26, "end": 71.53, "text": "that" },
+          { "start": 71.53, "end": 71.83, "text": "farm" },
+          { "start": 71.83, "end": 72.24, "text": "she" },
+          { "start": 72.24, "end": 72.45, "text": "had" },
+          { "start": 72.45, "end": 72.87, "text": "some" },
+          { "start": 72.87, "end": 73.57, "text": "seeds" },
+          { "start": 73.57, "end": 73.94, "text": "ee" },
+          { "start": 73.94, "end": 74.28, "text": "i" },
+          { "start": 74.28, "end": 74.60, "text": "ee" },
+          { "start": 74.60, "end": 74.96, "text": "i" },
+          { "start": 74.96, "end": 75.84, "text": "o" }
+        ]
+      },
+      {
+        "id": "l13",
+        "page": 1,
+        "start": 75.84,
+        "end": 78.85,
+        "text": "With hemp seeds here, and chia seeds there,",
+        "words": [
+          { "start": 75.84, "end": 76.21, "text": "With" },
+          { "start": 76.21, "end": 76.43, "text": "hemp" },
+          { "start": 76.43, "end": 76.83, "text": "seeds" },
+          { "start": 76.83, "end": 77.27, "text": "here" },
+          { "start": 77.27, "end": 77.53, "text": "and" },
+          { "start": 77.53, "end": 77.83, "text": "chia" },
+          { "start": 77.83, "end": 78.26, "text": "seeds" },
+          { "start": 78.26, "end": 78.85, "text": "there" }
+        ]
+      },
+      {
+        "id": "l14",
+        "page": 1,
+        "start": 78.85,
+        "end": 81.57,
+        "text": "pumpkin, sesame, dressin’ up your recipe",
+        "words": [
+          { "start": 78.85, "end": 79.52, "text": "pumpkin" },
+          { "start": 79.52, "end": 80.18, "text": "sesame" },
+          { "start": 80.18, "end": 80.60, "text": "dressin’" },
+          { "start": 80.60, "end": 80.76, "text": "up" },
+          { "start": 80.76, "end": 80.91, "text": "your" },
+          { "start": 80.91, "end": 81.57, "text": "recipe" }
+        ]
+      },
+      {
+        "id": "l15",
+        "page": 1,
+        "start": 81.57,
+        "end": 86.75,
+        "text": "Henrietta had a farm ee i ee i o",
+        "words": [
+          { "start": 81.57, "end": 82.91, "text": "Henrietta" },
+          { "start": 82.91, "end": 83.30, "text": "had" },
+          { "start": 83.30, "end": 83.60, "text": "a" },
+          { "start": 83.60, "end": 84.25, "text": "farm" },
+          { "start": 84.25, "end": 84.62, "text": "ee" },
+          { "start": 84.62, "end": 84.94, "text": "i" },
+          { "start": 84.94, "end": 85.25, "text": "ee" },
+          { "start": 85.25, "end": 85.59, "text": "i" },
+          { "start": 85.59, "end": 86.75, "text": "o" }
+        ]
+      },
+      {
+        "id": "l16",
+        "page": 1,
+        "start": 92.16,
+        "end": 97.18,
+        "text": "Henrietta had a farm ee i ee i o",
+        "words": [
+          { "start": 92.16, "end": 93.55, "text": "Henrietta" },
+          { "start": 93.55, "end": 93.96, "text": "had" },
+          { "start": 93.96, "end": 94.18, "text": "a" },
+          { "start": 94.18, "end": 94.89, "text": "farm" },
+          { "start": 94.89, "end": 95.25, "text": "ee" },
+          { "start": 95.25, "end": 95.62, "text": "i" },
+          { "start": 95.62, "end": 95.92, "text": "ee" },
+          { "start": 95.92, "end": 96.26, "text": "i" },
+          { "start": 96.26, "end": 97.18, "text": "o" }
+        ]
+      },
+      {
+        "id": "l17",
+        "page": 1,
+        "start": 97.18,
+        "end": 102.44,
+        "text": "and on that farm she grew some yams ee i ee i o",
+        "words": [
+          { "start": 97.18, "end": 97.60, "text": "and" },
+          { "start": 97.60, "end": 97.91, "text": "on" },
+          { "start": 97.91, "end": 98.13, "text": "that" },
+          { "start": 98.13, "end": 98.45, "text": "farm" },
+          { "start": 98.45, "end": 98.78, "text": "she" },
+          { "start": 98.78, "end": 99.10, "text": "grew" },
+          { "start": 99.10, "end": 99.55, "text": "some" },
+          { "start": 99.55, "end": 100.21, "text": "yams" },
+          { "start": 100.21, "end": 100.58, "text": "ee" },
+          { "start": 100.58, "end": 100.91, "text": "i" },
+          { "start": 100.91, "end": 101.23, "text": "ee" },
+          { "start": 101.23, "end": 101.57, "text": "i" },
+          { "start": 101.57, "end": 102.44, "text": "o" }
+        ]
+      },
+      {
+        "id": "l18",
+        "page": 1,
+        "start": 102.44,
+        "end": 105.45,
+        "text": "So we dig a bit here, and we dig a bit there,",
+        "words": [
+          { "start": 102.44, "end": 102.75, "text": "So" },
+          { "start": 102.75, "end": 102.92, "text": "we" },
+          { "start": 102.92, "end": 103.14, "text": "dig" },
+          { "start": 103.14, "end": 103.23, "text": "a" },
+          { "start": 103.23, "end": 103.58, "text": "bit" },
+          { "start": 103.58, "end": 103.96, "text": "here" },
+          { "start": 103.96, "end": 104.04, "text": "and" },
+          { "start": 104.04, "end": 104.25, "text": "we" },
+          { "start": 104.25, "end": 104.44, "text": "dig" },
+          { "start": 104.44, "end": 104.56, "text": "a" },
+          { "start": 104.56, "end": 104.89, "text": "bit" },
+          { "start": 104.89, "end": 105.45, "text": "there" }
+        ]
+      },
+      {
+        "id": "l19",
+        "page": 1,
+        "start": 105.45,
+        "end": 108.18,
+        "text": "potato one, potato two sweet like honey dew",
+        "words": [
+          { "start": 105.45, "end": 105.92, "text": "potato" },
+          { "start": 105.92, "end": 106.14, "text": "one" },
+          { "start": 106.14, "end": 106.54, "text": "potato" },
+          { "start": 106.54, "end": 106.78, "text": "two" },
+          { "start": 106.78, "end": 107.13, "text": "sweet" },
+          { "start": 107.13, "end": 107.55, "text": "like" },
+          { "start": 107.55, "end": 107.90, "text": "honey" },
+          { "start": 107.90, "end": 108.18, "text": "dew" }
+        ]
+      },
+      {
+        "id": "l20",
+        "page": 1,
+        "start": 108.18,
+        "end": 113.34,
+        "text": "Henrietta had a farm ee i ee i o",
+        "words": [
+          { "start": 108.18, "end": 109.59, "text": "Henrietta" },
+          { "start": 109.59, "end": 109.95, "text": "had" },
+          { "start": 109.95, "end": 110.18, "text": "a" },
+          { "start": 110.18, "end": 110.93, "text": "farm" },
+          { "start": 110.93, "end": 111.29, "text": "ee" },
+          { "start": 111.29, "end": 111.67, "text": "i" },
+          { "start": 111.67, "end": 111.95, "text": "ee" },
+          { "start": 111.95, "end": 112.33, "text": "i" },
+          { "start": 112.33, "end": 113.34, "text": "o" }
+        ]
+      },
+      {
+        "id": "l3",
+        "page": 1,
+        "start": 123.83,
+        "end": 126.87,
+        "text": "With red dye here, gold dye there,",
+        "words": [
+          { "start": 123.83, "end": 124.07, "text": "With" },
+          { "start": 124.27, "end": 124.58, "text": "red" },
+          { "start": 124.58, "end": 124.91, "text": "dye" },
+          { "start": 124.91, "end": 125.58, "text": "here" },
+          { "start": 125.58, "end": 125.89, "text": "gold" },
+          { "start": 125.89, "end": 126.22, "text": "dye" },
+          { "start": 126.22, "end": 126.87, "text": "there" }
+        ]
+      },
+      {
+        "id": "l4",
+        "page": 1,
+        "start": 126.87,
+        "end": 129.55,
+        "text": "purple dye, yellow dye, colors that electrify",
+        "words": [
+          { "start": 126.87, "end": 127.25, "text": "purple" },
+          { "start": 127.25, "end": 127.52, "text": "dye" },
+          { "start": 127.52, "end": 127.90, "text": "yellow" },
+          { "start": 127.90, "end": 128.25, "text": "dye" },
+          { "start": 128.25, "end": 128.59, "text": "colors" },
+          { "start": 128.59, "end": 128.79, "text": "that" },
+          { "start": 128.79, "end": 129.55, "text": "electrify" }
+        ]
+      },
+      {
+        "id": "l8",
+        "page": 1,
+        "start": 129.55,
+        "end": 132.12,
+        "text": "With a crunch crunch here, and a crunch crunch there,",
+        "words": [
+          { "start": 129.55, "end": 129.93, "text": "crunch" },
+          { "start": 129.93, "end": 130.29, "text": "crunch" },
+          { "start": 130.29, "end": 130.93, "text": "here" },
+          { "start": 130.93, "end": 131.28, "text": "crunch" },
+          { "start": 131.28, "end": 131.61, "text": "crunch" },
+          { "start": 131.61, "end": 132.12, "text": "there" }
+        ]
+      },
+      {
+        "id": "l9",
+        "page": 1,
+        "start": 132.12,
+        "end": 144.92,
+        "text": "here crunch, there crunch, wrap it up in a bunch",
+        "words": [
+          { "start": 132.12, "end": 132.54, "text": "here" },
+          { "start": 132.54, "end": 132.95, "text": "crunch" },
+          { "start": 132.95, "end": 133.25, "text": "there" },
+          { "start": 133.25, "end": 133.60, "text": "crunch" },
+          { "start": 133.60, "end": 133.81, "text": "wrap" },
+          { "start": 133.81, "end": 133.95, "text": "it" },
+          { "start": 133.95, "end": 134.29, "text": "up" },
+          { "start": 134.29, "end": 134.50, "text": "in" },
+          { "start": 134.50, "end": 134.60, "text": "a" },
+          { "start": 134.60, "end": 134.92, "text": "bunch" }
+        ]
+      },
+      {
+        "id": "l13",
+        "page": 1,
+        "start": 134.92,
+        "end": 137.54,
+        "text": "With hemp seeds here, and chia seeds there,",
+        "words": [
+          { "start": 134.92, "end": 135.15, "text": "hemp" },
+          { "start": 135.15, "end": 135.59, "text": "seeds" },
+          { "start": 135.59, "end": 136.12, "text": "here" },
+          { "start": 136.12, "end": 136.45, "text": "chia" },
+          { "start": 136.45, "end": 136.89, "text": "seeds" },
+          { "start": 136.89, "end": 137.54, "text": "there" }
+        ]
+      },
+      {
+        "id": "l14",
+        "page": 1,
+        "start": 137.54,
+        "end": 140.25,
+        "text": "pumpkin, sesame, dressin’ up your recipe",
+        "words": [
+          { "start": 137.54, "end": 138.13, "text": "pumpkin" },
+          { "start": 138.13, "end": 138.86, "text": "sesame" },
+          { "start": 138.86, "end": 139.24, "text": "dressin’" },
+          { "start": 139.24, "end": 139.41, "text": "up" },
+          { "start": 139.41, "end": 139.54, "text": "your" },
+          { "start": 139.54, "end": 140.25, "text": "recipe" }
+        ]
+      },
+      {
+        "id": "l18",
+        "page": 1,
+        "start": 140.25,
+        "end": 142.83,
+        "text": "So we dig a bit here, and we dig a bit there,",
+        "words": [
+          { "start": 140.25, "end": 140.52, "text": "dig" },
+          { "start": 140.52, "end": 140.58, "text": "a" },
+          { "start": 140.58, "end": 140.92, "text": "bit" },
+          { "start": 140.92, "end": 141.58, "text": "here" },
+          { "start": 141.58, "end": 141.83, "text": "dig" },
+          { "start": 141.83, "end": 141.93, "text": "a" },
+          { "start": 141.93, "end": 142.25, "text": "bit" },
+          { "start": 142.25, "end": 142.83, "text": "there" }
+        ]
+      },
+      {
+        "id": "l19",
+        "page": 1,
+        "start": 142.83,
+        "end": 145.60,
+        "text": "potato one, potato two sweet like honey dew",
+        "words": [
+          { "start": 142.83, "end": 143.29, "text": "potato" },
+          { "start": 143.29, "end": 143.47, "text": "one" },
+          { "start": 143.47, "end": 143.90, "text": "potato" },
+          { "start": 143.90, "end": 144.13, "text": "two" },
+          { "start": 144.13, "end": 144.57, "text": "sweet" },
+          { "start": 144.57, "end": 144.93, "text": "like" },
+          { "start": 144.93, "end": 145.25, "text": "honey" },
+          { "start": 145.25, "end": 145.60, "text": "dew" }
+        ]
+      },
+      {
+        "id": "l20",
+        "page": 1,
+        "start": 145.60,
+        "end": 150.62,
+        "text": "Henrietta had a farm ee i ee i o",
+        "words": [
+          { "start": 145.60, "end": 146.93, "text": "Henrietta" },
+          { "start": 146.93, "end": 147.28, "text": "had" },
+          { "start": 147.28, "end": 147.60, "text": "a" },
+          { "start": 147.60, "end": 148.28, "text": "farm" },
+          { "start": 148.28, "end": 148.62, "text": "ee" },
+          { "start": 148.62, "end": 148.96, "text": "i" },
+          { "start": 148.96, "end": 149.28, "text": "ee" },
+          { "start": 149.28, "end": 149.62, "text": "i" },
+          { "start": 149.62, "end": 150.62, "text": "o" }
+        ]
+      },
+      {
+        "id": "l20",
+        "page": 1,
+        "start": 150.95,
+        "end": 159.16,
+        "text": "Henrietta had a farm ee i ee i o",
+        "words": [
+          { "start": 150.95, "end": 152.30, "text": "Henrietta" },
+          { "start": 152.30, "end": 152.68, "text": "had" },
+          { "start": 152.68, "end": 152.83, "text": "a" },
+          { "start": 152.83, "end": 153.60, "text": "farm" },
+          { "start": 153.60, "end": 154.39, "text": "ee" },
+          { "start": 154.39, "end": 155.22, "text": "i" },
+          { "start": 155.22, "end": 156.22, "text": "ee" },
+          { "start": 156.22, "end": 157.14, "text": "i" },
+          { "start": 157.14, "end": 159.16, "text": "o" }
+        ]
+      }
+    ]
+}

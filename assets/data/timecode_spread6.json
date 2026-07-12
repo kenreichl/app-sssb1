@@ -1,0 +1,172 @@
+{
+    "song": "farmer and lady",
+    "duration": 147.0,
+    "lines": [
+      {
+        "id": "l1",
+        "page": 11,
+        "start": 29.58,
+        "end": 32.41,
+        "text": "Farmer and lady",
+        "words": [
+          { "start": 29.58, "end": 30.68, "text": "Farmer" },
+          { "start": 30.68, "end": 31.16, "text": "and" },
+          { "start": 31.16, "end": 32.41, "text": "lady" }
+        ]
+      },
+      {
+        "id": "l2",
+        "page": 11,
+        "start": 32.41,
+        "end": 35.00,
+        "text": "Tilling the land",
+        "words": [
+          { "start": 32.41, "end": 33.37, "text": "Tilling" },
+          { "start": 33.37, "end": 33.75, "text": "the" },
+          { "start": 33.75, "end": 35.00, "text": "land" }
+        ]
+      },
+      {
+        "id": "l3",
+        "page": 11,
+        "start": 35.00,
+        "end": 37.25,
+        "text": "When rain falls",
+        "words": [
+          { "start": 35.00, "end": 35.79, "text": "When" },
+          { "start": 35.79, "end": 36.37, "text": "rain" },
+          { "start": 36.37, "end": 37.25, "text": "falls" }
+        ]
+      },
+      {
+        "id": "l4",
+        "page": 11,
+        "start": 37.25,
+        "end": 40.41,
+        "text": "They sing & they dance",
+        "words": [
+          { "start": 37.25, "end": 37.62, "text": "They" },
+          { "start": 37.62, "end": 38.25, "text": "sing" },
+          { "start": 38.25, "end": 38.62, "text": "and" },
+          { "start": 38.62, "end": 39.04, "text": "they" },
+          { "start": 39.04, "end": 40.41, "text": "dance" }
+        ]
+      },
+      {
+        "id": "l5",
+        "page": 11,
+        "start": 40.41,
+        "end": 45.62,
+        "text": "After they sprout the seeds from the Fall",
+        "words": [
+          { "start": 40.41, "end": 41.29, "text": "After" },
+          { "start": 41.29, "end": 41.66, "text": "they" },
+          { "start": 41.66, "end": 42.62, "text": "sprout" },
+          { "start": 42.62, "end": 42.87, "text": "the" },
+          { "start": 42.87, "end": 43.75, "text": "seeds" },
+          { "start": 43.75, "end": 44.00, "text": "from" },
+          { "start": 44.00, "end": 44.18, "text": "the" },
+          { "start": 44.18, "end": 45.62, "text": "Fall" }
+        ]
+      },
+      {
+        "id": "l6",
+        "page": 11,
+        "start": 45.62,
+        "end": 50.83,
+        "text": "Lady takes farmer out to the ball",
+        "words": [
+          { "start": 45.62, "end": 46.58, "text": "Lady" },
+          { "start": 46.58, "end": 47.06, "text": "takes" },
+          { "start": 47.06, "end": 48.37, "text": "farmer" },
+          { "start": 48.37, "end": 48.75, "text": "out" },
+          { "start": 48.75, "end": 49.50, "text": "to" },
+          { "start": 49.50, "end": 49.66, "text": "the" },
+          { "start": 49.66, "end": 50.83, "text": "ball" }
+        ]
+      },
+      {
+        "id": "l7",
+        "page": 11,
+        "start": 88.25,
+        "end": 90.93,
+        "text": "Farmer and lady",
+        "words": [
+          { "start": 88.25, "end": 89.33, "text": "Farmer" },
+          { "start": 89.33, "end": 89.79, "text": "and" },
+          { "start": 89.79, "end": 90.93, "text": "lady" }
+        ]
+      },
+      {
+        "id": "l8",
+        "page": 11,
+        "start": 90.93,
+        "end": 93.56,
+        "text": "Tending the crop",
+        "words": [
+          { "start": 90.93, "end": 91.91, "text": "Tending" },
+          { "start": 91.91, "end": 92.25, "text": "the" },
+          { "start": 92.25, "end": 93.56, "text": "crop" }
+        ]
+      },
+      {
+        "id": "l9",
+        "page": 11,
+        "start": 93.56,
+        "end": 45.13,
+        "text": "When the wind blows",
+        "words": [
+          { "start": 93.56, "end": 94.50, "text": "When" },
+          { "start": 94.50, "end": 94.62, "text": "the" },
+          { "start": 94.62, "end": 95.09, "text": "wind" },
+          { "start": 95.09, "end": 96.04, "text": "blows" }
+        ]
+      },
+      {
+        "id": "l10",
+        "page": 11,
+        "start": 96.04,
+        "end": 99.08,
+        "text": "The pollen will drop",
+        "words": [
+          { "start": 96.04, "end": 96.52, "text": "The" },
+          { "start": 96.52, "end": 97.34, "text": "pollen" },
+          { "start": 97.34, "end": 97.72, "text": "will" },
+          { "start": 97.72, "end": 99.08, "text": "drop" }
+        ]
+      },
+      {
+        "id": "l11",
+        "page": 11,
+        "start": 99.08,
+        "end": 104.27,
+        "text": "After they rake the leaves in the Fall",
+        "words": [
+          { "start": 99.08, "end": 99.95, "text": "After" },
+          { "start": 99.95, "end": 100.37, "text": "they" },
+          { "start": 100.37, "end": 101.27, "text": "rake" },
+          { "start": 101.27, "end": 101.62, "text": "the" },
+          { "start": 101.62, "end": 102.43, "text": "leaves" },
+          { "start": 102.43, "end": 102.62, "text": "in" },
+          { "start": 102.62, "end": 102.84, "text": "the" },
+          { "start": 102.84, "end": 104.27, "text": "Fall" }
+        ]
+      },
+      {
+        "id": "l12",
+        "page": 11,
+        "start": 104.27,
+        "end": 109.70,
+        "text": "Farmer takes Lady out to the Ball",
+        "words": [
+          { "start": 104.27, "end": 105.25, "text": "Farmer" },
+          { "start": 105.25, "end": 105.82, "text": "takes" },
+          { "start": 105.82, "end": 107.47, "text": "Lady" },
+          { "start": 107.47, "end": 107.44, "text": "out" },
+          { "start": 107.44, "end": 108.25, "text": "to" },
+          { "start": 108.25, "end": 108.39, "text": "the" },
+          { "start": 108.39, "end": 109.70, "text": "Ball" }
+        ]
+      }
+    ]
+}
