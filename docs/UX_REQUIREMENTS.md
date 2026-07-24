@@ -14,7 +14,7 @@ A simple children’s book app for mobile and tablet. Users read illustrated spr
 
 ## 3. Global Rules
 
-- **Device Orientation:**
+- **Device Orientation:** lock device orientation, same for mobile and tablet
   - **Cover** - portrait
   - **Spreads 1-6** - landscape
   - **Back** - portrait
@@ -35,7 +35,7 @@ A simple children’s book app for mobile and tablet. Users read illustrated spr
 
 - Front cover fit to device portrait `assets/images/artwork_cover_front.jpg`
 - No lyric text block on cover.
-- Music playback on cover by default, loops audio file 3 times:`assets/audio/00_cover_front_five_little_green_beens.mp3`
+- Music playback on cover by default, loops audio file 3 times: `assets/audio/00_cover_front_five_little_green_beans.mp3`
 - Music on/off button - global setting
 
 
@@ -91,11 +91,11 @@ A simple children’s book app for mobile and tablet. Users read illustrated spr
   - Word-level text highlighting follows the timecode JSON for that spread.
   - Text block **auto-scrolls** so the currently highlighted line stays visible (typically near the middle or upper-middle of the text block).
 - When music finishes naturally:
-  - Highlighting stops / clears (or leaves last line softly emphasized — pick one and stick to it).
+  - Highlighting stops / clears.
   - Auto-scroll stops.
   - User stays on the same spread (no auto page turn).
   - User can still manually scroll text and turn pages.
-  - Music button remains On (preference unchanged). Replaying is optional (see Open Decisions).
+  - Music button remains On
 
 
 
@@ -160,7 +160,7 @@ A simple children’s book app for mobile and tablet. Users read illustrated spr
 ### Display
 
 - Back cover fit to device portrait `assets/images/artwork_cover_back.jpg`
-- Text scroll box
+- Overlay a **scrollable text block** on the left half using normalized coordinates from that spread’s `text_cover_back.md` frontmatter (`text_block: x, y, width, height`).
 - Soft return path to cover.
 
 
@@ -232,8 +232,8 @@ Back cover:
   - Author bio for Ngonda Badila
   - Illustrator bio for Ntangou Badila
   - Book information
-- Photo of book author Ngonda Badila at `assets/images/photo_bio_ng.jpg`
-- Photo of book illustrator Ntangou Badila at `assets/images/photo_bio_nt.jpg`
+- Photo of book author Ngonda Badila at `assets/images/photo-bio-ng.jpg`
+- Photo of book illustrator Ntangou Badila at `assets/images/photo-bio-nt.jpg`
 
 
 
@@ -247,7 +247,6 @@ Back cover:
 - While in any spread:
   - With music On, turning music Off stops audio + highlighting; later spreads stay silent until turned On.
   - With music Off, turning music on starts audio and lyric highlighting from the beginning
-  - After songs ends, replay button appears, stay silent until replay button pressed or page turn to next spread
 - Turning music On later starts the current spread’s song and stays On when navigating.
 - While in any spread:
   - With music On, lyrics highlight in sync and text block keeps the active line visible.
