@@ -36,6 +36,7 @@ A simple children’s book app for mobile and tablet. Users read illustrated spr
 - Front cover fit to device portrait `assets/images/artwork_cover_front.jpg`
 - No lyric text block on cover.
 - Music playback on cover by default, loops audio file 3 times: `assets/audio/00_cover_front_five_little_green_beans.mp3`
+  - toggling music off to on restarts the loop
 - Music on/off button - global setting
 
 
@@ -69,7 +70,7 @@ A simple children’s book app for mobile and tablet. Users read illustrated spr
 ### Display
 
 - Full-bleed spread artwork PNG.
-- Overlay a **scrollable text block** on the left half using normalized coordinates from that spread’s `text_spreadN.md` frontmatter (`text_block: x, y, width, height`).
+- Overlay a **scrollable text block** on the left half using fitted artwork rectagle (letterboxed) coordinates from that spread’s `text_spreadN.md` frontmatter (`text_block: x, y, width, height`).
 - Text comes from the markdown body (non-blank lines map to lyric line ids `l1…lN`).
 - Stanza blank lines in the text file are preserved as visual spacing.
 
@@ -110,7 +111,7 @@ A simple children’s book app for mobile and tablet. Users read illustrated spr
 
 ### Turning music Off while playing
 
-- Stop audio immediately.
+- Fade out over 1 second.
 - Clear highlighting.
 - Stop auto-scroll.
 - Leave current scroll position as-is (do not jump to top).
@@ -160,7 +161,7 @@ A simple children’s book app for mobile and tablet. Users read illustrated spr
 ### Display
 
 - Back cover fit to device portrait `assets/images/artwork_cover_back.jpg`
-- Overlay a **scrollable text block** on the left half using normalized coordinates from that spread’s `text_cover_back.md` frontmatter (`text_block: x, y, width, height`).
+- Overlay a **scrollable text block** on the left half using fitted artwork rectagle (letterboxed) coordinates from that spread’s `text_cover_back.md` frontmatter (`text_block: x, y, width, height`).
 - Soft return path to cover.
 
 
@@ -168,7 +169,7 @@ A simple children’s book app for mobile and tablet. Users read illustrated spr
 ### Actions
 
 - Back → Spread 6
-- “Back to Cover” button
+- Restart “Back to Cover” button
 - No forward navigation beyond this screen
 
 
@@ -194,7 +195,7 @@ A simple children’s book app for mobile and tablet. Users read illustrated spr
 - Large tap targets for music and page controls.
 - Minimal chrome: cover art, spread art, text block, music toggle, page controls.
 - No complex menus in v1.
-- Landscape is the primary orientation for spreads (book layout). If portrait is allowed
+- Landscape is the primary orientation for spreads (book layout).
 - Phone and tablet: same UX; layout scales; text block uses normalized coordinates.
 
 
@@ -254,7 +255,7 @@ Back cover:
   - Song end does not force a page turn.
 - Leaving a spread always stops its song.
 - While in the cover, after song loop count ends stay silent
-- While in the back cover, after song ends stay silent
+- While in the back cover, after song ends stay silent, no replay unless music button is toggled off, then on. Do no create music replay button for v1 of the app
 - App remains usable if audio or a single image fails.
 - Remeber music preference across app relaunches.
 - Start book from beginning across app relaunches

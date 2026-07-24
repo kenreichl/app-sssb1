@@ -21,7 +21,7 @@ This book app is adapted from a print book and has music with lyrics for each in
 
 
 
-### 1.2 App Functions
+### 1.2 App Functions and Features
 
 For detailed UX requirements, see `docs/UX_REQUIREMENTS.md`
 
@@ -29,13 +29,15 @@ For detailed UX requirements, see `docs/UX_REQUIREMENTS.md`
 - Smooth page turning like a book
 - Simple text scroll block for interior spreads and back cover
 - Text highlighting and autoscrolling when music is on
+- Exit button - exits the app - returns to the OS home / backgrounds the app (Android `moveTaskToBack`; iOS system initiates programmatic kill).
+- No status bar or hide status bar for v1 build
 
 
 
 ## 2. Overall Design Principles
 
 - Design for best performance
-- Design for backwards compatibility with older iOS and android devices
+- Design for backwards compatibility with older iOS and android devices (iOS 12+, Android API 26+)
 - Design for least number of failure modes, or failure points, and operatures with no maintenance
 - App is updatable
 - There will be more children’s book apps with music by the creator entity Sunny Side Songs
@@ -76,7 +78,7 @@ This will yield blank space above and below the artwork borders - use black back
 
 - All buttons are on the "top layer"; buttons can be over the artwork, background or combination both
 - Buttons cannot overlap on another
-- Button placements are normalized to screen dimensions unless explicity specified in pixels
+- Button placements are normalized to safe zone dimensions
 
 **Exit Button**
 
@@ -84,7 +86,6 @@ This will yield blank space above and below the artwork borders - use black back
 - Exit button at top right corner of the screen, position normalized to coordinates of the device. This means:
   - While in portrait mode in the exit button will appear over the black background
   - While in landscape mode the exit button may appear over black background, over the artwork, or combination of both
-- Exits the app; does not run in the background and does not resume where left off upon exit
 
 **Forward and Backward Chevron Buttons**
 
@@ -92,24 +93,34 @@ This will yield blank space above and below the artwork borders - use black back
 - Forward and backward buttons appear on interior spread screens
 - Backward only appears on back cover screen
 
-**Restart Button -** Only appears on the back cover page
 
-#### 3.2.2 Placement Details
 
-1. Front cover
-  1. Exit button - top right corner
-  2. Next page cheveron button (pointing right) - 200 px above bottom edge of screen, right edge of button has 10 px gap to right edge of screen
-  3. Music on/off button - center along horizontal axis of display in portrait, 200 px above bottom edge of screen.
-2. Interior spreads
-  1. Exit button - top right corner
-  2. Next page chevron button (pointing right) - center along vertical axis, right edge of button has 10 px gap to right edge of screen
-  3. Previous page chevron button (pointing left) - center along vertical axis, left edge of button has 10 px gap to left edge of screen
-  4. Music on/off button - center along horizontal axis of display in landscape, 200 px above bottom edge of screen.
-3. Back cover
-  1. Exit button - top right corner
-  2. Previous page chevron button (pointing left) - 200 px above bottom edge of screen, left edge of button has 10 px gap to left edge of screen
-  3. Music on/off button, center along horizontal axis of display in portrait, 200 px above bottom edge of screen.
-  4. Restart button or "back to cover" button - 200 px above bottom edge of screen, right edge of button has 10 px gap to right edge of screen
+#### 3.2.2 Placement (normalized to safe area)
+
+Shared:
+
+- buttonDiameter = max(48, 0.09 * shortestSide)
+- edgeGap = max(8, 0.02 * shortestSide)
+- bottomBandY = 1.0 - (edgeGap + buttonDiameter) / safeHeight (i.e. buttons sit in a bottom band, one diameter + gap above safe bottom)
+
+Front cover (portrait):
+
+- Exit: top-right of safe area (gap = edgeGap)
+- Forward chevron: right side, vertical center of safe area
+- Music: horizontal center, at bottomBandY
+
+Interior spreads (landscape):
+
+- Exit: top-right of safe area
+- Forward / back chevrons: vertical center, left/right with edgeGap
+- Music: horizontal center, at bottomBandY
+
+Back cover (portrait):
+
+- Exit: top-right
+- Back chevron: left, at bottomBandY
+- Music: horizontal center, at bottomBandY
+- Restart (back to cover): right, at bottomBandY
 
 
 
@@ -132,7 +143,7 @@ Music On/Off Button
 
 - circular, using speaker symbol for music on, and speaker symbol crossed out for music off
 
-Restart Button
+Restart (Back to Cover) Button
 
 - circular, circle with circular arrow restart symbol
 
@@ -145,10 +156,27 @@ Low latency, low overhead transitions design
 #### 3.4.1 Page Turning
 
 - page turning like a book
-- page fold is along center of each interior spread
+- page fold is along center of each interior spread with soft curl illusion < 1200 ms
 - page turning timing is consistent whether music is playing or not
 - Allocate 1200 ms up to for page turning
-- When turning pages from one interor spread to the next, or interior spread to the back cover, animate the text scroll block size change between spreads with different text scroll block size with a short AnimatedContainer (200–400 ms) during page turn
+- When turning pages from one interor spread to the next, animate the text scroll block size change between spreads with different text scroll block size with a short AnimatedContainer (200–400 ms) during page turn
+- When turning pages from front cover to first interior spread - when forward page turn is pressed:
+  - all other buttons disappear
+  - start the fade out cover image to black (200 ms)
+  - After fade out of cover image, immediately start fade in first interior spread (spread 1) (200 ms) from black, in landscape orientation
+  - lock landscape and accept temporary sideways holding
+- When turning pages from spread 6 to back cover - when forward page turn is pressed:
+  - all other buttons disappear
+  - start the fade to black of spread 6 image and text block (200 ms)
+  - After fade out of spread 6, begin fade in of back cover image in portrait and scroll block (200 ms)
+  - lock portrait and accept temporary sideways holding
+- When turning pages from spread1 to cover, or back cover to spread 6:
+  - mirror the fade-via-black pattern (200 ms out / 200 ms in) and set orientation at the start of the fade-in target
+- When restarting book from back cover to front cover
+  - all other buttons disappear
+  - start the fade to black of back cover image and text block (200 ms)
+  - After fade out of back cover, begin fade in of front cover image (200 ms)
+  - No change in device orientation for this transition
 
 
 
@@ -166,6 +194,8 @@ Music effects from user actions while music is playing:
 - Interior spreads - 
   - if page turn (forward or backward) is initiated while the song is playing, begin the fade out of the song to be  completed by the completion of the page turn and before start of the song from the spread user turned to.
   - Edge case - the page turn is initiated during the last 1200 ms of the song - do not do a fade out effect.
+- Globally while music is playing
+  - Exit button pressed causes music to fade out over 1 second, then initiate exit out of app
 
 
 
@@ -175,17 +205,52 @@ Sizable and child-friendly font
 
 Lightweight text fade-scroll effect
 
-Low opacity for text block background - text block goes on top of some of the artwork; artwork is still visible but text is the top layer with full opacity.
+`#FFFFFF` at 10% for text block background - text block goes on top of some of the artwork; artwork is still visible but text is the top layer with full opacity.
 
 No visible border to the scroll block
 
 ### 3.6 Back Cover Scrolling Text Block Content Layout
 
-Scrolling text block covers the majority of the back cover artwork, and has a layout of the following items
+Scrolling text block covers the majority of the back cover artwork, and has a layout of the following items. Inside `text_cover_back.md` body, content is keyed by section headings:
 
-1. Obi Kanda Medicinals (the owner of the copywrite, owner of registered trademark for Sunny Side Songs and publisher of the book) logo, centered along horizontal axis at the top of the scroll block
-2. About the Authors
-  1. Photo of the author Ngonda Badila from `assets/images/photo-bio-ng.jpg`, circular crop, centered along horizontal axis, followed by author bio text from line 14 of `assets/data/text_cover_back.md`, left justified with 20 px margin from left and right border of scroll block
-  2. Photo of the illustrator Ntangou Badila from `assets/images/photo-bio-nt.jpg`, circular crop, centered along horizontal axis, followed by illustrator bio text from line 16 of `assets/data/text_cover_back.md`, left justified with 20 px margin from left and right border of scroll block
-3. Book information - lines 18 - 25 from `assets/data/text_cover_back.md`, left justified with 20 px margin from left and right border of scroll block
+- `## author_bio` → author photo + bio
+- `## illustrator_bio` → illustrator photo + bio
+- `## book_info` → title/credits/copyright/ISBN lines
+Layout order in the scroll block:
+
+1. Logo (`logo` from frontmatter), horizontally centered
+2. Author photo + `author_bio` text with circular crop 0.28 * text_block.width, horizontally centered
+3. Illustrator photo + `illustrator_bio` text with circular crop 0.28 * text_block.width, horizontally centered
+4. `book_info` block
+
+Text insets: 0.05 of text_block width (instead of hard 20 px), left/right.
+
+### 3.7 Typography & Highlighting
+
+Typography:
+
+- Font family: Nunito (or system rounded sans if custom font not bundled yet)
+- Lyric body: 18–22 sp on phone, 24–28 sp on tablet (use LayoutBuilder breakpoint, e.g. shortestSide >= 600)
+- Weight: regular for inactive text; bold for active word
+- Color: near-black (#1A1A1A) on light text-block wash
+- Line height: 1.35
+
+Highlighting (music On only):
+
+- Active word: bold + accent color warm green #2E7D32
+- Inactive words: default lyric color
+- Optional: current line background wash at 8–12% opacity
+- When music Off or song ended: all text returns to default style
+
+
+
+### 3.8 Touch Targets & Safe Areas
+
+Minimum tap size
+
+- Circular control diameter: max(48, 0.09 * shortestSide)
+- Padding of max(8, 0.02 * shortestSide)
+- Hit target may be larger than visible icon (use Padding / minimumSize)
+- All button offsets are measured from the safe-area inset edges (MediaQuery.padding), not the physical screen edge
+- Text blocks stay inside the artwork’s fitted rect; buttons may sit in letterbox (black) or over art, but never under the system notch/home bar
 
