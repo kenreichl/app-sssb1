@@ -4,11 +4,19 @@ title: "twinkle twinkle little sprout"
 illustration: "artwork_spread5.png"
 audio: "05_twinkle.mp3"
 author: "Ngonda Badila"
+
+text_block:
+  x: 0.13
+  y: 0.37
+  width: 0.28
+  height: 0.46
 ---
 
 Twinkle twinkle little sprout
 Gently making your way out
+
 Growing from a tiny seed
 Mini roots and mini leaves
+
 So nutritious, I will shout
 When I put you in my mouth

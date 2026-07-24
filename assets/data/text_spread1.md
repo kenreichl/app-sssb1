@@ -4,6 +4,12 @@ title: "henrietta"
 illustration: "artwork_spread1.png"
 audio: "01_henrietta.mp3"
 author: "Ngonda Badila"
+
+text_block:
+  x: 0.02
+  y: 0.07
+  width: 0.42
+  height: 0.45
 ---
 
 Henrietta had a farm ee i ee i o

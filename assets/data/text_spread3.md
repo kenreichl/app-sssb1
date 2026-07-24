@@ -4,6 +4,12 @@ title: "five little green beans"
 illustration: "artwork_spread3.png"
 audio: "03_how_many_seeds.mp3"
 author: "Ngonda Badila"
+
+text_block:
+  x: 0.02
+  y: 0.32
+  width: 0.28
+  height: 0.50
 ---
 
 Apple picking in a row

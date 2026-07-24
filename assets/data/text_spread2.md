@@ -4,6 +4,12 @@ title: "five little green beans"
 illustration: "artwork_spread2.png"
 audio: "02_five_little_green_beans.mp3"
 author: "Ngonda Badila"
+
+text_block:
+  x: 0.02
+  y: 0.13
+  width: 0.36
+  height: 0.63
 ---
 
 Five little green beans growing on the string
